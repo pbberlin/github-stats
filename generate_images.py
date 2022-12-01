@@ -69,13 +69,18 @@ async def generate_languages(s: Stats) -> None:
     delay_between = 150
     for i, (lang, data) in enumerate(sorted_languages):
         langs += lang + "\n"
-        langs += json.dumps(data, indent=4) + "\n\n"
+        langs += json.dumps(data, indent=4) + "\n"
         if lang.strip() == "Jupyter Notebook":
-            langs += "skippped-1\n\n"        
+            langs += "skippped-1\n\n"
             continue
         if lang.strip().lower() == "jupyter notebook":
             langs += "skippped-2\n\n"        
             continue
+        if data["prop"] < 0.1:
+            langs += "skippped- < 0.1 percent\n\n"        
+            continue
+        langs += "\n"
+            
         color = data.get("color")
         color = color if color is not None else "#000000"
         progress += (
