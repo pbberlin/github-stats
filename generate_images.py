@@ -8,6 +8,8 @@ import aiohttp
 
 from github_stats import Stats
 
+import json
+
 
 ################################################################################
 # Helper Functions
@@ -67,7 +69,7 @@ async def generate_languages(s: Stats) -> None:
     delay_between = 150
     for i, (lang, data) in enumerate(sorted_languages):
         langs += lang + "\n"
-        langs += data + "\n\n"
+        langs += json.dumps(data, indent=4) + "\n\n"
         color = data.get("color")
         color = color if color is not None else "#000000"
         progress += (
