@@ -70,6 +70,8 @@ async def generate_languages(s: Stats) -> None:
     for i, (lang, data) in enumerate(sorted_languages):
         langs += lang + "\n"
         langs += json.dumps(data, indent=4) + "\n\n"
+        if lang == "Jupyter Notebook":
+            continue
         color = data.get("color")
         color = color if color is not None else "#000000"
         progress += (
