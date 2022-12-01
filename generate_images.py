@@ -94,7 +94,9 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
     generate_output_folder()
     with open("generated/languages.svg", "w") as f:
         f.write(output)
-    with open("generated/langs.log", "w") as f:
+        
+    # *.log is ignored because of .gitignore    
+    with open("generated/langs.logg", "w") as f:
         f.write(langs)
 
 
