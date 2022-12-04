@@ -1,33 +1,33 @@
 Go
 {
-    "size": 2756293,
+    "size": 3408020,
     "occurrences": 22,
     "color": "#00ADD8",
-    "prop": 62.58317045879759
+    "prop": 65.64459707494169
 }
 
 Python
 {
-    "size": 490248,
+    "size": 494963,
     "occurrences": 6,
     "color": "#3572A5",
-    "prop": 11.131354377449929
+    "prop": 9.533877941445287
 }
 
 JavaScript
 {
-    "size": 388608,
+    "size": 466443,
     "occurrences": 12,
     "color": "#f1e05a",
-    "prop": 8.823561466670057
+    "prop": 8.984531426877492
 }
 
 CSS
 {
-    "size": 384143,
+    "size": 429555,
     "occurrences": 11,
     "color": "#563d7c",
-    "prop": 8.722181150390718
+    "prop": 8.27400217619808
 }
 
 Jupyter Notebook
@@ -35,24 +35,24 @@ Jupyter Notebook
     "size": 329531,
     "occurrences": 1,
     "color": "#DA5B0B",
-    "prop": 7.482185219226703
+    "prop": 6.347359968164098
 }
 skippped-1
 
 Shell
 {
-    "size": 34209,
+    "size": 37205,
     "occurrences": 11,
     "color": "#89e051",
-    "prop": 0.7767344321612422
+    "prop": 0.7166352410411927
 }
 
 Batchfile
 {
-    "size": 11959,
+    "size": 16689,
     "occurrences": 11,
     "color": "#C1F12E",
-    "prop": 0.271535767611339
+    "prop": 0.321460167658553
 }
 
 Dockerfile
@@ -60,7 +60,7 @@ Dockerfile
     "size": 5912,
     "occurrences": 1,
     "color": "#384d54",
-    "prop": 0.1342352586435518
+    "prop": 0.11387575715725122
 }
 
 PowerShell
@@ -68,7 +68,7 @@ PowerShell
     "size": 2335,
     "occurrences": 1,
     "color": "#012456",
-    "prop": 0.05301747783029321
+    "prop": 0.044976301245294587
 }
 skippped- < 0.1 percent
 
@@ -77,7 +77,7 @@ Stata
     "size": 403,
     "occurrences": 1,
     "color": "#1a5f91",
-    "prop": 0.009150339856791504
+    "prop": 0.0077625050971536266
 }
 skippped- < 0.1 percent
 
@@ -86,7 +86,7 @@ Erlang
     "size": 310,
     "occurrences": 1,
     "color": "#B83998",
-    "prop": 0.007038722966762696
+    "prop": 0.00597115776704125
 }
 skippped- < 0.1 percent
 
@@ -95,7 +95,7 @@ Visual Basic
     "size": 156,
     "occurrences": 2,
     "color": "#945db7",
-    "prop": 0.0035420670413386472
+    "prop": 0.003004840682769146
 }
 skippped- < 0.1 percent
 
@@ -104,7 +104,7 @@ Makefile
     "size": 101,
     "occurrences": 1,
     "color": "#427819",
-    "prop": 0.002293261353687201
+    "prop": 0.0019454417241005367
 }
 skippped- < 0.1 percent
 
