@@ -1,9 +1,17 @@
 Go
 {
-    "size": 3565980,
+    "size": 3588377,
     "occurrences": 22,
     "color": "#00ADD8",
-    "prop": 66.18774632615114
+    "prop": 66.28436477692334
+}
+
+JavaScript
+{
+    "size": 496065,
+    "occurrences": 12,
+    "color": "#f1e05a",
+    "prop": 9.163293994210887
 }
 
 Python
@@ -11,15 +19,7 @@ Python
     "size": 494963,
     "occurrences": 6,
     "color": "#3572A5",
-    "prop": 9.186951549035818
-}
-
-JavaScript
-{
-    "size": 492526,
-    "occurrences": 12,
-    "color": "#f1e05a",
-    "prop": 9.14171867117424
+    "prop": 9.14293789172105
 }
 
 CSS
@@ -27,7 +27,7 @@ CSS
     "size": 438912,
     "occurrences": 11,
     "color": "#563d7c",
-    "prop": 8.146595358219521
+    "prop": 8.107565931051553
 }
 
 Jupyter Notebook
@@ -35,7 +35,7 @@ Jupyter Notebook
     "size": 329531,
     "occurrences": 1,
     "color": "#DA5B0B",
-    "prop": 6.116387145918628
+    "prop": 6.08708421921786
 }
 skippped-1
 
@@ -44,7 +44,7 @@ Shell
     "size": 40643,
     "occurrences": 12,
     "color": "#89e051",
-    "prop": 0.7543700676767006
+    "prop": 0.750755965058436
 }
 
 Batchfile
@@ -52,7 +52,7 @@ Batchfile
     "size": 15902,
     "occurrences": 11,
     "color": "#C1F12E",
-    "prop": 0.29515520055593564
+    "prop": 0.2937411450030571
 }
 
 Dockerfile
@@ -60,7 +60,7 @@ Dockerfile
     "size": 5912,
     "occurrences": 1,
     "color": "#384d54",
-    "prop": 0.10973195482874429
+    "prop": 0.10920624130663273
 }
 
 PowerShell
@@ -68,7 +68,7 @@ PowerShell
     "size": 2335,
     "occurrences": 1,
     "color": "#012456",
-    "prop": 0.04333966754484403
+    "prop": 0.04313203204516025
 }
 skippped- < 0.1 percent
 
@@ -77,7 +77,7 @@ Stata
     "size": 403,
     "occurrences": 1,
     "color": "#1a5f91",
-    "prop": 0.007480036839645458
+    "prop": 0.007444200819785688
 }
 skippped- < 0.1 percent
 
@@ -86,7 +86,7 @@ Erlang
     "size": 310,
     "occurrences": 1,
     "color": "#B83998",
-    "prop": 0.005753874492034967
+    "prop": 0.005726308322912068
 }
 skippped- < 0.1 percent
 
@@ -95,7 +95,7 @@ Visual Basic
     "size": 156,
     "occurrences": 2,
     "color": "#945db7",
-    "prop": 0.002895498131475661
+    "prop": 0.0028816261237880085
 }
 skippped- < 0.1 percent
 
@@ -104,7 +104,7 @@ Makefile
     "size": 101,
     "occurrences": 1,
     "color": "#427819",
-    "prop": 0.0018746494312759086
+    "prop": 0.0018656681955294158
 }
 skippped- < 0.1 percent
 
