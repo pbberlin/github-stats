@@ -132,7 +132,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #00ADD8;width: 63.027%;" class="progress-item"></span><span style="background-color: #563d7c;width: 10.202%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 9.905%;" class="progress-item"></span><span style="background-color: #3572A5;width: 8.992%;" class="progress-item"></span><span style="background-color: #3178c6;width: 0.821%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.676%;" class="progress-item"></span><span style="background-color: #336790;width: 0.476%;" class="progress-item"></span><span style="background-color: #C1F12E;width: 0.282%;" class="progress-item"></span>
+<span style="background-color: #00ADD8;width: 63.017%;" class="progress-item"></span><span style="background-color: #563d7c;width: 10.200%;" class="progress-item"></span><span style="background-color: #f1e05a;width: 9.906%;" class="progress-item"></span><span style="background-color: #3572A5;width: 8.991%;" class="progress-item"></span><span style="background-color: #3178c6;width: 0.828%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.676%;" class="progress-item"></span><span style="background-color: #336790;width: 0.482%;" class="progress-item"></span><span style="background-color: #C1F12E;width: 0.281%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -144,7 +144,7 @@ div.ellipsis {
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">Go</span>
-<span class="percent">63.03%</span>
+<span class="percent">63.02%</span>
 </li>
 
 
@@ -180,7 +180,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">TypeScript</span>
-<span class="percent">0.82%</span>
+<span class="percent">0.83%</span>
 </li>
 
 
