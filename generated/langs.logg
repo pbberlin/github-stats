@@ -3,7 +3,7 @@ Go
     "size": 3811846,
     "occurrences": 22,
     "color": "#00ADD8",
-    "prop": 62.88004207128496
+    "prop": 62.87566511186613
 }
 
 CSS
@@ -11,7 +11,7 @@ CSS
     "size": 616502,
     "occurrences": 13,
     "color": "#563d7c",
-    "prop": 10.169789570992984
+    "prop": 10.169081671399027
 }
 
 JavaScript
@@ -19,7 +19,7 @@ JavaScript
     "size": 597757,
     "occurrences": 14,
     "color": "#f1e05a",
-    "prop": 9.860572884740119
+    "prop": 9.859886509128062
 }
 
 Python
@@ -27,7 +27,7 @@ Python
     "size": 542068,
     "occurrences": 7,
     "color": "#3572A5",
-    "prop": 8.941929617696333
+    "prop": 8.941307187084433
 }
 
 Jupyter Notebook
@@ -35,16 +35,16 @@ Jupyter Notebook
     "size": 329531,
     "occurrences": 1,
     "color": "#DA5B0B",
-    "prop": 5.435928718996676
+    "prop": 5.4355503343992275
 }
 skippped-1
 
 TypeScript
 {
-    "size": 68375,
+    "size": 68797,
     "occurrences": 1,
     "color": "#3178c6",
-    "prop": 1.1279109587911236
+    "prop": 1.1347932557351619
 }
 
 Shell
@@ -52,7 +52,7 @@ Shell
     "size": 40766,
     "occurrences": 12,
     "color": "#89e051",
-    "prop": 0.6724741227945732
+    "prop": 0.6724273131575449
 }
 
 PLpgSQL
@@ -60,7 +60,7 @@ PLpgSQL
     "size": 29060,
     "occurrences": 2,
     "color": "#336790",
-    "prop": 0.47937246745842854
+    "prop": 0.47933909925816254
 }
 
 Batchfile
@@ -68,7 +68,7 @@ Batchfile
     "size": 16970,
     "occurrences": 11,
     "color": "#C1F12E",
-    "prop": 0.2799363652019798
+    "prop": 0.27991687936720644
 }
 
 Dockerfile
@@ -76,7 +76,7 @@ Dockerfile
     "size": 5912,
     "occurrences": 1,
     "color": "#384d54",
-    "prop": 0.09752408904384824
+    "prop": 0.09751730057860485
 }
 skippped- < 0.1 percent
 
@@ -85,7 +85,7 @@ PowerShell
     "size": 2335,
     "occurrences": 1,
     "color": "#012456",
-    "prop": 0.03851805614299486
+    "prop": 0.03851537497480418
 }
 skippped- < 0.1 percent
 
@@ -94,7 +94,7 @@ Stata
     "size": 403,
     "occurrences": 1,
     "color": "#1a5f91",
-    "prop": 0.006647870075214958
+    "prop": 0.006647407329698537
 }
 skippped- < 0.1 percent
 
@@ -103,7 +103,7 @@ Erlang
     "size": 310,
     "occurrences": 1,
     "color": "#B83998",
-    "prop": 0.005113746211703815
+    "prop": 0.00511339025361426
 }
 skippped- < 0.1 percent
 
@@ -112,7 +112,7 @@ Visual Basic
     "size": 156,
     "occurrences": 2,
     "color": "#945db7",
-    "prop": 0.0025733690613735324
+    "prop": 0.0025731899340768532
 }
 skippped- < 0.1 percent
 
@@ -121,7 +121,7 @@ Makefile
     "size": 101,
     "occurrences": 1,
     "color": "#427819",
-    "prop": 0.001666091507684146
+    "prop": 0.0016659755342420652
 }
 skippped- < 0.1 percent
 
