@@ -85,25 +85,30 @@ async def generate_languages(s: Stats) -> None:
     delay_between = 150
     langs = ""
     for i, (lang, data) in enumerate(sorted_languages):
+
+        # rename
+        if lang.strip().lower() == "plpgsql":
+            lang = "SQL"
+
         langs += lang + "\n"
         langs += json.dumps(data, indent=4) + "\n"
-        if lang.strip().lower() == "plpgsql":
-            langs += "skippped-2\n\n"        
-            continue
+
+        # suppress
         if lang.strip().lower() == "jupyter notebook":
-            langs += "skippped-2\n\n"        
+            langs += "skippped-2\n\n"
             continue
         if lang.strip().lower() == "r":
-            langs += "skippped-3\n\n"        
+            langs += "skippped-3\n\n"
             continue
         if lang.strip().lower() == "batchfile":
-            langs += "skippped-4\n\n"        
+            langs += "skippped-4\n\n"
             continue
         if data["prop"] < 0.1:
-            langs += "skippped- < 0.1 percent\n\n"        
+            langs += "skippped- < 0.1 percent\n\n"
             continue
+
         langs += "\n"
-            
+
         color = data.get("color")
         color = color if color is not None else "#000000"
         progress += (
@@ -128,8 +133,8 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
     generate_output_folder()
     with open("generated/languages.svg", "w") as f:
         f.write(output)
-        
-    # *.log is ignored because of .gitignore    
+
+    # *.log is ignored because of .gitignore
     with open("generated/langs.logg", "w") as f:
         f.write(langs)
 
