@@ -72,8 +72,8 @@ async def generate_languages(s: Stats) -> None:
 
     for i, (lang, data) in enumerate(sorted_languages):
         if lang.strip().lower() == "python":
-            old = data.get("prop", 0)
-            data.set("prop", old+pctJupypter)
+            pctOld = data.get("prop", 0)
+            data["prop"] = pctOld+pctJupypter
 
 
     delay_between = 150
