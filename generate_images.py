@@ -76,6 +76,9 @@ async def generate_languages(s: Stats) -> None:
         if lang.strip().lower() == "jupyter notebook":
             langs += "skippped-2\n\n"        
             continue
+        if lang.strip().lower() == "R":
+            langs += "skippped-3\n\n"        
+            continue
         if data["prop"] < 0.1:
             langs += "skippped- < 0.1 percent\n\n"        
             continue
