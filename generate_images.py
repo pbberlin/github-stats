@@ -87,11 +87,17 @@ async def generate_languages(s: Stats) -> None:
     for i, (lang, data) in enumerate(sorted_languages):
         langs += lang + "\n"
         langs += json.dumps(data, indent=4) + "\n"
+        if lang.strip().lower() == "plpgsql":
+            langs += "skippped-2\n\n"        
+            continue
         if lang.strip().lower() == "jupyter notebook":
             langs += "skippped-2\n\n"        
             continue
         if lang.strip().lower() == "r":
             langs += "skippped-3\n\n"        
+            continue
+        if lang.strip().lower() == "batchfile":
+            langs += "skippped-4\n\n"        
             continue
         if data["prop"] < 0.1:
             langs += "skippped- < 0.1 percent\n\n"        
