@@ -65,15 +65,21 @@ async def generate_languages(s: Stats) -> None:
         (await s.languages).items(), reverse=True, key=lambda t: t[1].get("size")
     )
 
-    pctJupypter = 0
+    pctJupypter  = 0
+    pctBatchFile = 0
     for i, (lang, data) in enumerate(sorted_languages):
         if lang.strip().lower() == "jupyter notebook":
-            pctJupypter = data.get("prop", 0)
+            pctJupypter  = data.get("prop", 0)
+        if lang.strip().lower() == "batchfile":
+            pctBatchFile = data.get("prop", 0)
 
     for i, (lang, data) in enumerate(sorted_languages):
         if lang.strip().lower() == "python":
             pctOld = data.get("prop", 0)
             data["prop"] = pctOld+pctJupypter
+        if lang.strip().lower() == "shell":
+            pctOld = data.get("prop", 0)
+            data["prop"] = pctOld+pctBatchFile
 
 
     delay_between = 150
