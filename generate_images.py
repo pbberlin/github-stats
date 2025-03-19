@@ -76,7 +76,7 @@ async def generate_languages(s: Stats) -> None:
         if lang.strip().lower() == "jupyter notebook":
             langs += "skippped-2\n\n"        
             continue
-        if lang.strip().lower() == "R":
+        if lang.strip().lower() == "r":
             langs += "skippped-3\n\n"        
             continue
         if data["prop"] < 0.1:
@@ -102,7 +102,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 
 """
 
-    output = re.sub(r"{{ progress }}", progress, output)
+    output = re.sub(r"{{ progress }}",  progress, output)
     output = re.sub(r"{{ lang_list }}", lang_list, output)
 
     generate_output_folder()
