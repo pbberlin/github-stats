@@ -64,15 +64,23 @@ async def generate_languages(s: Stats) -> None:
     sorted_languages = sorted(
         (await s.languages).items(), reverse=True, key=lambda t: t[1].get("size")
     )
-    langs = ""
-    
+
+    pctJupypter = 0
+    for i, (lang, data) in enumerate(sorted_languages):
+        if lang.strip().lower() == "jupyter notebook":
+            pctJupypter = data.get("prop", 0)
+
+    for i, (lang, data) in enumerate(sorted_languages):
+        if lang.strip().lower() == "python":
+            old = data.get("prop", 0)
+            data.set("prop", old+pctJupypter)
+
+
     delay_between = 150
+    langs = ""
     for i, (lang, data) in enumerate(sorted_languages):
         langs += lang + "\n"
         langs += json.dumps(data, indent=4) + "\n"
-        if lang.strip() == "Jupyter Notebook":
-            langs += "skippped-1\n\n"
-            continue
         if lang.strip().lower() == "jupyter notebook":
             langs += "skippped-2\n\n"        
             continue
