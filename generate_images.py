@@ -67,11 +67,14 @@ async def generate_languages(s: Stats) -> None:
 
     pctJupypter  = 0
     pctBatchFile = 0
+    pctSvelte = 0
     for i, (lang, data) in enumerate(sorted_languages):
         if lang.strip().lower() == "jupyter notebook":
             pctJupypter  = data.get("prop", 0)
         if lang.strip().lower() == "batchfile":
             pctBatchFile = data.get("prop", 0)
+        if lang.strip().lower() == "Svelte":
+            pctSvelte = data.get("prop", 0)
 
     for i, (lang, data) in enumerate(sorted_languages):
         if lang.strip().lower() == "python":
@@ -80,6 +83,9 @@ async def generate_languages(s: Stats) -> None:
         if lang.strip().lower() == "shell":
             pctOld = data.get("prop", 0)
             data["prop"] = pctOld+pctBatchFile
+        if lang.strip().lower() == "TypeScript":
+            pctOld = data.get("prop", 0)
+            data["prop"] = pctOld+pctSvelte
 
 
     delay_between = 150
@@ -102,6 +108,12 @@ async def generate_languages(s: Stats) -> None:
             continue
         if lang.strip().lower() == "batchfile":
             langs += "skippped-4\n\n"
+            continue
+        if lang.strip().lower() == "BibTeX Style":
+            langs += "skippped-5\n\n"
+            continue
+        if lang.strip().lower() == "Svelte":
+            langs += "skippped-6\n\n"
             continue
         if data["prop"] < 0.1:
             langs += "skippped- < 0.1 percent\n\n"
@@ -183,3 +195,4 @@ async def main() -> None:
 
 if __name__ == "__main__":
     asyncio.run(main())
+
