@@ -3,23 +3,23 @@ Go
     "size": 3948812,
     "occurrences": 22,
     "color": "#00ADD8",
-    "prop": 45.95463576220597
+    "prop": 45.63101781196653
 }
 
 JavaScript
 {
-    "size": 1464001,
+    "size": 1521214,
     "occurrences": 19,
     "color": "#f1e05a",
-    "prop": 17.037436249308726
+    "prop": 17.578588985703256
 }
 
 Python
 {
-    "size": 1206868,
+    "size": 1210596,
     "occurrences": 14,
     "color": "#3572A5",
-    "prop": 17.879974136630835
+    "prop": 17.797140651337813
 }
 
 CSS
@@ -27,7 +27,7 @@ CSS
     "size": 967821,
     "occurrences": 17,
     "color": "#663399",
-    "prop": 11.26309926580803
+    "prop": 11.18378319600813
 }
 
 Jupyter Notebook
@@ -35,7 +35,7 @@ Jupyter Notebook
     "size": 329531,
     "occurrences": 1,
     "color": "#DA5B0B",
-    "prop": 3.834945061288178
+    "prop": 3.8079389270988697
 }
 skippped-2
 
@@ -44,7 +44,7 @@ R
     "size": 290076,
     "occurrences": 1,
     "color": "#198CE7",
-    "prop": 3.375784140485204
+    "prop": 3.3520114715068736
 }
 skippped-3
 
@@ -53,7 +53,7 @@ TypeScript
     "size": 142924,
     "occurrences": 3,
     "color": "#3178c6",
-    "prop": 1.7870675706122114
+    "prop": 1.7744828305843834
 }
 
 Shell
@@ -61,7 +61,7 @@ Shell
     "size": 82987,
     "occurrences": 15,
     "color": "#89e051",
-    "prop": 1.2168375374497489
+    "prop": 1.2082684243861272
 }
 
 SQL
@@ -69,7 +69,7 @@ SQL
     "size": 70253,
     "occurrences": 2,
     "color": "#336790",
-    "prop": 0.8175752672455047
+    "prop": 0.8118178060500435
 }
 
 Lua
@@ -77,7 +77,7 @@ Lua
     "size": 24603,
     "occurrences": 1,
     "color": "#000080",
-    "prop": 0.2863195066408716
+    "prop": 0.28430321099809575
 }
 
 BibTeX Style
@@ -85,7 +85,7 @@ BibTeX Style
     "size": 23105,
     "occurrences": 1,
     "color": null,
-    "prop": 0.26888640413515985
+    "prop": 0.2669928744507175
 }
 skippped-5
 
@@ -94,7 +94,7 @@ Batchfile
     "size": 21574,
     "occurrences": 12,
     "color": "#C1F12E",
-    "prop": 0.25106926132057733
+    "prop": 0.24930120205149445
 }
 skippped-4
 
@@ -103,7 +103,7 @@ Svelte
     "size": 10636,
     "occurrences": 2,
     "color": "#ff3e00",
-    "prop": 0.12377735530757672
+    "prop": 0.12290570061276049
 }
 skippped-6
 
@@ -112,7 +112,7 @@ Dockerfile
     "size": 5912,
     "occurrences": 1,
     "color": "#384d54",
-    "prop": 0.0688014032134631
+    "prop": 0.06831689563958632
 }
 skippped- < 0.1 percent
 
@@ -121,7 +121,7 @@ PowerShell
     "size": 2335,
     "occurrences": 1,
     "color": "#012456",
-    "prop": 0.027173761248889775
+    "prop": 0.026982400425986812
 }
 skippped- < 0.1 percent
 
@@ -130,7 +130,7 @@ Stata
     "size": 944,
     "occurrences": 2,
     "color": "#1a5f91",
-    "prop": 0.010985880350728885
+    "prop": 0.010908516489135569
 }
 skippped- < 0.1 percent
 
@@ -139,7 +139,7 @@ Erlang
     "size": 310,
     "occurrences": 1,
     "color": "#B83998",
-    "prop": 0.00360765138636224
+    "prop": 0.0035822458809661294
 }
 skippped- < 0.1 percent
 
@@ -148,7 +148,7 @@ Visual Basic
     "size": 156,
     "occurrences": 2,
     "color": "#945db7",
-    "prop": 0.0018154632782984175
+    "prop": 0.001802678572357149
 }
 skippped- < 0.1 percent
 
